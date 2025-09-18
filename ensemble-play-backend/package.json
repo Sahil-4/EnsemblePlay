@@ -1,0 +1,30 @@
+{
+  "name": "ensemble-play-backend",
+  "version": "1.0.0",
+  "description": "backend for ensemble play app",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "compile": "tsc --watch",
+    "dev": "node --watch dist/index.js",
+    "start": "node dist/index.js",
+    "deploy": "npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sahil-4",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.1.0"
+  }
+}
