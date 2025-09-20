@@ -89,3 +89,14 @@ coverage
 
 # VSCode
 .vscode/
+
+# React Native bundler cache
+ensemble-play-frontend/.bundle/
+
+# Jest cache
+ensemble-play-frontend/jest-cache/
+ensemble-play-frontend/jest-stare/
+
+# Temporary / debug files
+*.tmp
+tmp/
