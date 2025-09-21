@@ -4,7 +4,12 @@ class Message {
   viewerDisplayName: string;
   content: string;
 
-  constructor(timestamp: string, viewerSocketId: string, viewerDisplayName: string, content: string) {
+  constructor(
+    timestamp: string,
+    viewerSocketId: string,
+    viewerDisplayName: string,
+    content: string
+  ) {
     this.timestamp = timestamp;
     this.viewerSocketId = viewerSocketId;
     this.viewerDisplayName = viewerDisplayName;

@@ -1,6 +1,6 @@
-import Message from "./Message.js";
 import Playback from "./Playback.js";
-import Viewer from "./Viewer.js";
+import type Message from "./Message.js";
+import type Viewer from "./Viewer.js";
 import { getRoomCode } from "../utils/index.js";
 
 class Room {

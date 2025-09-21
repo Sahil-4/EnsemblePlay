@@ -1,10 +1,11 @@
-import { Server, Socket } from "socket.io";
-import { Server as HttpServer } from "http";
+import { Server } from "socket.io";
+import type { Socket } from "socket.io";
+import type { Server as HttpServer } from "http";
 import Room from "../models/Room.js";
 import Viewer from "../models/Viewer.js";
 import Message from "../models/Message.js";
 import { SocketResponse } from "../utils/index.js";
-import { ClientToServerEvents, ServerToClientEvents } from "../types/index.js";
+import type { ClientToServerEvents, ServerToClientEvents } from "../types/index.js";
 
 let io: Server<ClientToServerEvents, ServerToClientEvents> | null = null;
 
